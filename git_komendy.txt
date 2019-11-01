@@ -19,4 +19,4 @@ git branch => wyświetla gałęzie
 
 .gitignore => plik gdzie wpisujemy pliki które mają być pomijane przy dodawaniu do kolejki
 
-bzdury
+bzdury do usuniecia
