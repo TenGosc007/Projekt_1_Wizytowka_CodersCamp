@@ -1,2 +1,2 @@
-commit.log('usun to');
+commit.log('zrobione');
 command.log('Hey You?');
