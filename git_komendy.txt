@@ -7,3 +7,10 @@ git commit  => zatwierdza zmiany
 git commit -m "komentarz do zmiany" 
 git remote add origin [SSH] => połączenie z repozytorium
 git push -u origin master => wgranie zmian do zdalnego repozytorium
+git pull origin master => pobieranie zmian z repozytorium
+git clone [httm address] => pobiera projekt z repozyorium
+
+git branch feature => towrzy nową gałąź
+git checkout feature => przechodzi na utworzoną gałąź
+git mearge feature => łączy utworzoną gałąź z gałęzią master
+git branch -d feature => usuwa gałąź
