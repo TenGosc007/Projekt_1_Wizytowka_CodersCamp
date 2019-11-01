@@ -1,0 +1,9 @@
+git --version
+git init => tworzy plik git
+git status => git status
+git add [nazwa pliku] => dodanie pliku do repozytorium
+git add . => dodanie wszystkich plików
+git commit  => zatwierdza zmiany
+git commit -m "komentarz do zmiany" 
+git remote add origin [SSH] => połączenie z repozytorium
+git push -u origin master => wgranie zmian do zdalnego repozytorium
