@@ -18,3 +18,5 @@ git branch -d feature => usuwa gałąź
 git branch => wyświetla gałęzie
 
 .gitignore => plik gdzie wpisujemy pliki które mają być pomijane przy dodawaniu do kolejki
+
+bzdury
