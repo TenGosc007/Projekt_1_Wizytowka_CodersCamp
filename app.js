@@ -1,1 +1,1 @@
-command.log('Hey You!');
+command.log('Hey You?');
