@@ -172,3 +172,18 @@ img:hover
     margin: 0;
     font-size: 0.7em;
 }
+
+h4 {
+    color: rgb(22, 180, 253);
+}
+
+#zegar {
+    color: rgb(247, 199, 68);
+    transition: all 0.5s ease-in-out;
+}
+
+#zegar:hover {
+    -webkit-transform: scale(1.15);
+	-ms-transform: scale(1.15);
+	transform: scale(1.15);
+}
