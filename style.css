@@ -6,7 +6,7 @@ html, body {
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    background: url(img/_1250582.jpg) no-repeat center center;
+    background: url(_1250582.jpg) no-repeat center center;
     background-attachment: fixed;
     background-size: cover;
 }
