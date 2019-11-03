@@ -11,11 +11,11 @@ body {
     background-size: cover;
 }
 
-/* @media (min-width:1000px) {
+@media (min-width:1000px) {
     body {
-        background: url(P1250582.jpg) no-repeat center center;
+        background: url(img/P1150967.jpg) no-repeat center center;
     }
-  } */
+  }
 
 .container {
     margin: 0 auto;
