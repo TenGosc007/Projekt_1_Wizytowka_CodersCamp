@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="style.css" type="text/css" />
 
     <!-- ustawienie ikony strony -->
-    <link rel="shortcut icon" href="38967.ico">
+    <link rel="shortcut icon" href="img/38967.ico">
     <!-- google fonts -->
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,100' rel='stylesheet' type='text/css'>
 </head>
@@ -25,73 +25,74 @@
 
     <div class="nav">
         <div class="container">
-            <ul>
-                <li>O mnie</li>
-                <li>Ratownictwo</li>
-                <li>Jeźoro</li>
-                <li>Wydmy</li>
-                <li>Kontakt</li>
-                <li>Home</li>
-            </ul>
+            <a href="#media">Media</a>
+            <a href="#photography">Fotografia</a>
+            <a href="#projects">Projekty</a>
+            <a href="#rescue">Ratownictwo</a>
+            <a href="#about_me">O mnie</a>
         </div>
     </div>
 
     <div class="main">
-        <div class="postcard">
-            <div class="photo1">
-                <a href="#"><img src="img/01.jpg" alt="Taktsang"></a>
-            </div>
-            <p>Klasztor Taktsang - dolina Paro, Bhutan</p>
-        </div>
+        <div class="littleContainer">
+            <div class="content">
+                <div id="about_me">
+                    <h1>O mnie</h1>
+                    <p>
+                        Cześć! Nazywam się Olek. W trzech słowach jestem <strong>studentem, ratowinkiem,
+                            fotografem.</strong><br />
+                        <strong>Obecnie:</strong> Czwarty rok Automatyki i Robotyki na Politechnice Wrocławskiej. <br />
 
+                        <strong>Nie straszne mi są:</strong>
+                        <ul>
+                            <li>Elektronika, tworzenie PCB, programowanie STM32</li>
+                            <li>Sterowniki PLC</li>
+                            <li>Języki: C, C++, Python, HTML, CSS</li>
+                            <li>I wiele innych</li>
+                        </ul>
 
-        <div class="postcard">
-
-            <div class="photo2">
-                <h1>O mnie</h1>
-                <p>Ratownik WOPR: doświadczenie zdobyłem jeżdżąc kilka lat z rzędu na bałtyckie plaże, a dokładniej na tereny Słowińskiego Parku Narodowego.</p>
-            </div>
-            <p>Las bambusowy Arashiyama - Kyoto, Japonia</p>
-
-        </div>
-
-        <div class="postcard">
-
-            <div class="photo3">
-                <div class="overlay">
-                    <a href="#"><img src="img/03.jpg" alt="Bryce Canyon"></a>
-                    <a class="link" href="#">
-                        <p>Rok założenia: 1928, powierzchnia 145 km<sup>2</sup></p>
-                    </a>
+                        <strong>Poza uczelnią interesuję się:</strong>
+                        <ul>
+                            <li>Kinem</li>
+                            <li>Fotografią</li>
+                            <li>Pływaniem</li>
+                            <li>Tworzeniem stron internetowych</li>
+                        </ul>
+                    </p>
                 </div>
             </div>
-            <p>Park Narodowy Bryce Canyon - Utah, USA</p>
 
-        </div>
-
-        <div class="postcard">
-
-            <div class="photo4">
-                <div class="overlayT">
-                    <a href="#"><img src="img/04.jpg" alt="Taj Mahal"></a>
-                    <a class="link" href="#"><span class="icon"><i class="icon-search"></i>
-                            <p>zobacz album</p>
-                        </span></a>
+            <div class="content">
+                <div id="projects" >
+                    <a href="#"><img src="img/20190108_082655038_iOS.jpg" alt="Płytka z mikrokontrolerem"></a>
                 </div>
+                <p>Elektronika... Im dalej w las, tym więcej drzew...</p>
             </div>
-            <p>Mauzoleum Taj Mahal - Agra, Indie</p>
 
+            <div class="content">
+                <div id="rescue" >
+                    <a href="#"><img src="img/P1160488.jpg" alt="Ja wypatrujący wypływających z morza skarbów"></a>
+                </div>
+                <p>Jako ratownik ratuję ludzi z różnych sytuacji, nie tylko w wodzie :D</p>
+            </div>
+
+            <div class="content">
+                <div id="photography">
+                    <div class="overlayT">
+                        <a href="#"><img class="photo3" src="img/P1010161.jpg" alt="Światło Cień"></a>
+                    </div>
+                </div>
+                <p>Fotografia, moje drugie oblicze.</p>
+            </div>
         </div>
-    </div>
 
-    <div class="footer">
-        <div class="container">
-            <ul>
-                <li>Instagram</li>
-                <li>YouTube</li>
-                <li>e-mail</li>
-            </ul>
-            <p>&copy; Aleksander Atamańczuk. All rights reserved.</p>
+        <div id="media" , class="footer">
+            <div class="container">
+                <a href="https://www.instagram.com/ale.atam/" target="_blank" title="Instagram">Instagram</a>
+                <a href="https://www.youtube.com/watch?v=k5mctbzX3nI" target="_blank" title="Tylda (2019)">YouTube</a>
+                <a href="https://github.com/TenGosc007" target="_blank">Git</a>
+                <p>&copy; Aleksander Atamańczuk. All rights reserved.</p>
+            </div>
         </div>
     </div>
 </body>
